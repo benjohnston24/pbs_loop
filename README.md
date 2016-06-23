@@ -15,8 +15,8 @@ Contents of this get repo:
 loop.sh # The bash script that submits the PBS job
 loop_script.py # The example looping job in Python
 
-# Ensure you change the project code etc for the PBS component of 
-loop.sh otherwise your job will not submit
+*Ensure you change the project code etc for the PBS component of 
+loop.sh otherwise your job will not submit*
 
 The mandatory arguments for loop_script.py are:
 --walltime the wall time specified for the PBS job
@@ -32,4 +32,5 @@ Remember to save time to save all the necessary files for early termination!
 
 
 Ben Johnston 23rd June 2016
+
 bjohnston24@gmail.com
