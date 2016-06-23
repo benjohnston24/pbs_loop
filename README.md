@@ -12,20 +12,20 @@ it can be extended to include the saving of other parameters.
 
 Contents of this get repo:
 
-loop.sh # The bash script that submits the PBS job
-loop_script.py # The example looping job in Python
+* loop.sh # The bash script that submits the PBS job
+* loop_script.py # The example looping job in Python
 
 *Ensure you change the project code etc for the PBS component of 
 loop.sh otherwise your job will not submit*
 
 The mandatory arguments for loop_script.py are:
---walltime the wall time specified for the PBS job
---script the script to execute on voluntary termination
---file the filename for the progress file that gets saved along the way
+* --walltime the wall time specified for the PBS job
+* --script the script to execute on voluntary termination
+* --file the filename for the progress file that gets saved along the way
 
 By default the Python script will self terminate at 90% wall time.  This can be
 changed by providing the argument
---exLim
+* --exLim
 
 A value of 0.99 will indicate to the script to exit at 99.9% of walltime. 
 Remember to save time to save all the necessary files for early termination!
