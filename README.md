@@ -10,7 +10,7 @@ and looks for the presence of the file on relaunch.  If the file is present
 it will load the contents and continue.  While this is a simple example
 it can be extended to include the saving of other parameters.
 
-Contents of this get repo:
+Contents of this git repo:
 
 * loop.sh *The bash script that submits the PBS job*
 * loop_script.py *The example looping job in Python*
